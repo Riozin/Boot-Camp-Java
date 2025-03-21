@@ -1,10 +1,20 @@
+import java.util.Locale;
+import java.util.Scanner;
+
 public class TiposVariaveis {
-
-
     public static void main(String[] args) {
         
         //tipos primitivos
-        //estudem a classe Sting que representa texto na aplicacao
+        //estudem a classe Sting que re presenta texto na aplicacao
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+
+        System.out.println("Digite seu nome");
+        String nome = scanner.next();
+
+        System.out.println("Seja bem vindo: " + nome);
+
+
+
 
 
         
